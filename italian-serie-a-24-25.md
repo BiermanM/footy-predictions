@@ -540,3 +540,22 @@ Notes:
 | Empoli        | Roma       | 2                |              |                 |                     |
 | Juventus      | Atalanta   | 2                |              |                 |                     |
 | Lazio         | Udinese    | 1                |              |                 |                     |
+
+## Matchday 29
+
+#### Accuracy: ? / 10 correct predictions
+
+#### Betting Result: ?% return
+
+| Home Team     | Away Team     | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
+| ------------- | ------------- | ---------------- | ------------ | --------------- | ------------------- |
+| Genoa         | Lecce         | X                |              |                 |                     |
+| Monza         | Parma         | 2                |              |                 |                     |
+| Udinese       | Hellas Verona | X                |              |                 |                     |
+| AC Milan      | Como          | 1                |              |                 |                     |
+| Torino        | Empoli        | 1                |              |                 |                     |
+| Venezia       | Napoli        | 2                |              |                 |                     |
+| Bologna       | Lazio         | 1                |              |                 |                     |
+| Roma          | Cagliari      | X                |              |                 |                     |
+| Fiorentina    | Juventus      | 2                |              |                 |                     |
+| Atalanta      | Inter Milan   | X                |              |                 |                     |
