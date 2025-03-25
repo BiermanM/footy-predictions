@@ -543,9 +543,9 @@ Notes:
 
 ## Matchday 29
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 4 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -7.7% return
 
 | Home Team  | Away Team     | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
 | ---------- | ------------- | ---------------- | -------------------- | --------------- | ------------------- |
@@ -554,8 +554,27 @@ Notes:
 | Monza      | Parma         | 2                | +206, **+227**, +137 | X               | ✅                  |
 | AC Milan   | Como          | 1                | **-125**, +274, +336 | 1               | ✅                  |
 | Torino     | Empoli        | 1                | **-115**, +229, +365 | 1               | ✅                  |
-| Venezia    | Napoli        | 2                |                      |                 |                     |
-| Bologna    | Lazio         | 1                |                      |                 |                     |
-| Roma       | Cagliari      | X                |                      |                 |                     |
-| Fiorentina | Juventus      | 2                |                      |                 |                     |
-| Atalanta   | Inter Milan   | X                |                      |                 |                     |
+| Venezia    | Napoli        | 2                | +644, +313, -208     | X               | ❌                  |
+| Bologna    | Lazio         | 1                | **+129**, +198, +257 | 1               | ✅                  |
+| Roma       | Cagliari      | X                | -204, +323, +588     | 1               | ❌                  |
+| Fiorentina | Juventus      | 2                | +229, +204, +138     | 1               | ❌                  |
+| Atalanta   | Inter Milan   | X                | +159, +227, +179     | 2               | ❌                  |
+
+## Matchday 30
+
+#### Accuracy: ? / 10 correct predictions
+
+#### Betting Result: ?% return
+
+| Home Team     | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
+| ------------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Como          | Empoli    | X                |              |                 |                     |
+| Venezia       | Bologna   | 2                |              |                 |                     |
+| Juventus      | Genoa     | 1                |              |                 |                     |
+| Lecce         | Roma      | X                |              |                 |                     |
+| Cagliari      | Monza     | X                |              |                 |                     |
+| Fiorentina    | Atalanta  | 2                |              |                 |                     |
+| Inter Milan   | Udinese   | 1                |              |                 |                     |
+| Napoli        | AC Milan  | 1                |              |                 |                     |
+| Hellas Verona | Parma     | 2                |              |                 |                     |
+| Lazio         | Torino    | X                |              |                 |                     |
