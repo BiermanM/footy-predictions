@@ -2,34 +2,34 @@
 
 ### Upcoming prediction
 
-**Matchday 30** (3/29/25 - 3/31/25)
+**Matchday 32** (4/11/25 - 4/14/25)
 
-| Home Team | Away Team     | Predicted Result | Official Result |
-| --------- | ------------- | ---------------- | --------------- |
-| Genoa     | Udinese       | 1                |                 |
-| Monza     | Como          | 2                |                 |
-| Parma     | Inter Milan   | 2                |                 |
-| AC Milan  | Fiorentina    | 1                |                 |
-| Lecce     | Venezia       | X                |                 |
-| Empoli    | Cagliari      | 2                |                 |
-| Torino    | Hellas Verona | X                |                 |
-| Atalanta  | Lazio         | 1                |                 |
-| Roma      | Juventus      | X                |                 |
-| Bologna   | Napoli        | 2                |                 |
+| Home Team  | Away Team | Predicted Result | Official Result |
+| ---------- | --------- | ---------------- | --------------- |
+| Udinese    | AC Milan  | 2                |                 |
+| Venezia    | Monza     | 1                |                 |
+| Inter      | Cagliari  | 1                |                 |
+| Juventus   | Lecce     | 1                |                 |
+| Atalanta   | Bologna   | 2                |                 |
+| Fiorentina | Parma     | X                |                 |
+| Verona     | Genoa     | X                |                 |
+| Como       | Torino    | X                |                 |
+| Lazio      | Roma      | 2                |                 |
+| Napoli     | Empoli    | 1                |                 |
 
 ### Last week's result
 
-60% accuracy, +36.2% betting return
+50% accuracy, +32.3% betting return
 
-| Home Team     | Away Team | Predicted Result | Official Result | Correct Prediction? |
-| ------------- | --------- | ---------------- | --------------- | ------------------- |
-| Venezia       | Bologna   | 2                | 2               | ✅                  |
-| Como          | Empoli    | X                | X               | ✅                  |
-| Juventus      | Genoa     | 1                | 1               | ✅                  |
-| Lecce         | Roma      | X                | 2               | ❌                  |
-| Cagliari      | Monza     | X                | 1               | ❌                  |
-| Fiorentina    | Atalanta  | 2                | 1               | ❌                  |
-| Inter Milan   | Udinese   | 1                | 1               | ✅                  |
-| Napoli        | AC Milan  | 1                | 1               | ✅                  |
-| Hellas Verona | Parma     | 2                | X               | ❌                  |
-| Lazio         | Torino    | X                | X               | ✅                  |
+| Home Team | Away Team     | Predicted Result | Official Result | Correct Prediction? |
+| --------- | ------------- | ---------------- | --------------- | ------------------- |
+| Genoa     | Udinese       | 1                | 1               | ✅                  |
+| Monza     | Como          | 2                | 2               | ✅                  |
+| Parma     | Inter Milan   | 2                | X               | ❌                  |
+| AC Milan  | Fiorentina    | 1                | X               | ❌                  |
+| Lecce     | Venezia       | X                | X               | ✅                  |
+| Torino    | Hellas Verona | X                | X               | ✅                  |
+| Empoli    | Cagliari      | 2                | X               | ❌                  |
+| Atalanta  | Lazio         | 1                | 2               | ❌                  |
+| Roma      | Juventus      | X                | X               | ✅                  |
+| Bologna   | Napoli        | 2                | X               | ❌                  |

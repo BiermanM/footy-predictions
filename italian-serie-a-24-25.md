@@ -581,19 +581,38 @@ Notes:
 
 ## Matchday 31
 
+#### Accuracy: 5 / 10 correct predictions
+
+#### Betting Result: +32.3% return
+
+| Home Team | Away Team     | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| --------- | ------------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Genoa     | Udinese       | 1                | **+139**, +198, +235 | 1               | ✅                  |
+| Monza     | Como          | 2                | +399, +282, **-145** | 2               | ✅                  |
+| Parma     | Inter Milan   | 2                | +601, +343, -217     | X               | ❌                  |
+| AC Milan  | Fiorentina    | 1                | -125, +261, +358     | X               | ❌                  |
+| Lecce     | Venezia       | X                | +139, **+198**, +235 | X               | ✅                  |
+| Torino    | Hellas Verona | X                | -112, **+211**, +394 | X               | ✅                  |
+| Empoli    | Cagliari      | 2                | +156, **+202**, +202 | X               | ❌                  |
+| Atalanta  | Lazio         | 1                | -149, +286, +417     | 2               | ❌                  |
+| Roma      | Juventus      | X                | +147, **+206**, +212 | X               | ✅                  |
+| Bologna   | Napoli        | 2                | +159, +194, +206     | X               | ❌                  |
+
+## Matchday 32
+
 #### Accuracy: ? / 10 correct predictions
 
 #### Betting Result: ?% return
 
-| Home Team | Away Team     | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | ------------- | ---------------- | ------------ | --------------- | ------------------- |
-| Genoa     | Udinese       | 1                |              |                 |                     |
-| Monza     | Como          | 2                |              |                 |                     |
-| Parma     | Inter Milan   | 2                |              |                 |                     |
-| AC Milan  | Fiorentina    | 1                |              |                 |                     |
-| Lecce     | Venezia       | X                |              |                 |                     |
-| Empoli    | Cagliari      | 2                |              |                 |                     |
-| Torino    | Hellas Verona | X                |              |                 |                     |
-| Atalanta  | Lazio         | 1                |              |                 |                     |
-| Roma      | Juventus      | X                |              |                 |                     |
-| Bologna   | Napoli        | 2                |              |                 |                     |
+| Home Team  | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Udinese    | AC Milan  | 2                |              |                 |                     |
+| Venezia    | Monza     | 1                |              |                 |                     |
+| Inter      | Cagliari  | 1                |              |                 |                     |
+| Juventus   | Lecce     | 1                |              |                 |                     |
+| Atalanta   | Bologna   | 2                |              |                 |                     |
+| Fiorentina | Parma     | X                |              |                 |                     |
+| Verona     | Genoa     | X                |              |                 |                     |
+| Como       | Torino    | X                |              |                 |                     |
+| Lazio      | Roma      | 2                |              |                 |                     |
+| Napoli     | Empoli    | 1                |              |                 |                     |
