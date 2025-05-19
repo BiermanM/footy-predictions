@@ -695,19 +695,38 @@ Notes:
 
 ## Matchday 37
 
+#### Accuracy: 3 / 10 correct predictions
+
+#### Betting Result: -45.7% return
+
+| Home Team     | Away Team | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| ------------- | --------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Genoa         | Atalanta  | 2                | +220, +229, **+129** | 2               | ✅                  |
+| Hellas Verona | Como      | 2                | +225, +206, +142     | X               | ❌                  |
+| Parma         | Napoli    | 2                | +617, +337, -213     | X               | ❌                  |
+| Monza         | Empoli    | 2                | +409, +258, **-135** | 2               | ✅                  |
+| Lecce         | Torino    | 2                | +108, +213, +301     | 1               | ❌                  |
+| Juventus      | Udinese   | 1                | **-250**, +371, +707 | 1               | ✅                  |
+| Inter Milan   | Lazio     | 1                | -147, +296, +393     | X               | ❌                  |
+| Fiorentina    | Bologna   | X                | +202, +204, +158     | 1               | ❌                  |
+| Cagliari      | Venezia   | X                | +179, +195, +184     | 1               | ❌                  |
+| Roma          | AC Milan  | 2                | +117, +254, +225     | 1               | ❌                  |
+
+## Matchday 38
+
 #### Accuracy: ? / 10 correct predictions
 
 #### Betting Result: ?% return
 
-| Home Team     | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| ------------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
-| Roma          | AC Milan  | 2                |              |                 |                     |
-| Cagliari      | Venezia   | X                |              |                 |                     |
-| Fiorentina    | Bologna   | X                |              |                 |                     |
-| Genoa         | Atalanta  | 2                |              |                 |                     |
-| Inter Milan   | Lazio     | 1                |              |                 |                     |
-| Juventus      | Udinese   | 1                |              |                 |                     |
-| Lecce         | Torino    | 2                |              |                 |                     |
-| Monza         | Empoli    | 2                |              |                 |                     |
-| Parma         | Napoli    | 2                |              |                 |                     |
-| Hellas Verona | Como      | 2                |              |                 |                     |
+| Home Team | Away Team     | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
+| --------- | ------------- | ---------------- | ------------ | --------------- | ------------------- |
+| AC Milan  | Monza         | 1                |              |                 |                     |
+| Atalanta  | Parma         | X                |              |                 |                     |
+| Bologna   | Genoa         | 1                |              |                 |                     |
+| Como      | Inter Milan   | 2                |              |                 |                     |
+| Empoli    | Hellas Verona | X                |              |                 |                     |
+| Lazio     | Lecce         | 1                |              |                 |                     |
+| Napoli    | Cagliari      | 1                |              |                 |                     |
+| Torino    | Roma          | 2                |              |                 |                     |
+| Udinese   | Fiorentina    | 2                |              |                 |                     |
+| Venezia   | Juventus      | 2                |              |                 |                     |
