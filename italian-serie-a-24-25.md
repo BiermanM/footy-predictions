@@ -161,16 +161,16 @@ Notes:
 
 1 match postponed
 
-#### Accuracy: 6 / 9 correct predictions
+#### Accuracy: 6 / 10 correct predictions
 
-#### Betting Result: +48.2% return
+#### Betting Result: +33.4% return
 
 | Home Team  | Away Team     | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
 | ---------- | ------------- | ---------------- | --------------------- | --------------- | ------------------- |
 | Udinese    | Cagliari      | X                | +124, +213, +254      | 1               | ❌                  |
 | Torino     | Como          | X                | +167, +200, +193      | 1               | ❌                  |
 | Napoli     | Lecce         | 1                | **-303**, +419, +886  | 1               | ✅                  |
-| Bologna    | Milan         | 2                | ?                     | ?               | ?                   |
+| Bologna    | Milan         | 2                | +190, +229, +154      | 1               | ❌                  |
 | Atalanta   | Hellas Verona | 1                | **-345**, +459, +1003 | 1               | ✅                  |
 | Parma      | Empoli        | 2                | +117, +242, +238      | X               | ❌                  |
 | Monza      | Venezia       | X                | +112, **+229**, +262  | X               | ✅                  |
@@ -714,19 +714,19 @@ Notes:
 
 ## Matchday 38
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 6 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -4.2% return
 
-| Home Team | Away Team     | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | ------------- | ---------------- | ------------ | --------------- | ------------------- |
-| AC Milan  | Monza         | 1                |              |                 |                     |
-| Atalanta  | Parma         | X                |              |                 |                     |
-| Bologna   | Genoa         | 1                |              |                 |                     |
-| Como      | Inter Milan   | 2                |              |                 |                     |
-| Empoli    | Hellas Verona | X                |              |                 |                     |
-| Lazio     | Lecce         | 1                |              |                 |                     |
-| Napoli    | Cagliari      | 1                |              |                 |                     |
-| Torino    | Roma          | 2                |              |                 |                     |
-| Udinese   | Fiorentina    | 2                |              |                 |                     |
-| Venezia   | Juventus      | 2                |              |                 |                     |
+| Home Team | Away Team     | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
+| --------- | ------------- | ---------------- | --------------------- | --------------- | ------------------- |
+| Napoli    | Cagliari      | 1                | **-526**, +603, +1425 | 1               | ✅                  |
+| Como      | Inter Milan   | 2                | +329, +311, **-133**  | 2               | ✅                  |
+| Bologna   | Genoa         | 1                | -204, +322, +623      | 2               | ❌                  |
+| AC Milan  | Monza         | 1                | **-417**, +577, +1000 | 1               | ✅                  |
+| Venezia   | Juventus      | 2                | +546, +375, **-217**  | 2               | ✅                  |
+| Udinese   | Fiorentina    | 2                | +202, +238, **+137**  | 2               | ✅                  |
+| Torino    | Roma          | 2                | +444, +329, **-175**  | 2               | ✅                  |
+| Lazio     | Lecce         | 1                | -227, +345, +667      | 2               | ❌                  |
+| Empoli    | Hellas Verona | X                | -102, +194, +394      | 2               | ❌                  |
+| Atalanta  | Parma         | X                | -115, +267, +321      | 2               | ❌                  |
