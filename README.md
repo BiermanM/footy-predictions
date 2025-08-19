@@ -1,6 +1,23 @@
 # Footy Predictions
 
-### 2024-2025 Season Results
+### Upcoming prediction
+
+**Matchday 1** (8/23/25 - 8/25/25)
+
+| Home Team | Away Team  | Predicted Result | Official Result |
+| --------- | ---------- | ---------------- | --------------- |
+| Genoa     | Lecce      | 1                |                 |
+| Sassuolo  | Napoli     | 2                |                 |
+| AC Milan  | Cremonese  | 1                |                 |
+| AS Roma   | Bologna    | 2                |                 |
+| Cagliari  | Fiorentina | 2                |                 |
+| Como      | Lazio      | X                |                 |
+| Atalanta  | Pisa       | 1                |                 |
+| Juventus  | Parma      | X                |                 |
+| Udinese   | Verona     | X                |                 |
+| Inter     | Torino     | 1                |                 |
+
+### Previous Season (2024-2025) Results
 
 | Matchday  | Accuracy   | Betting Return |
 | --------- | ---------- | -------------- |
