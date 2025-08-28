@@ -2,20 +2,35 @@
 
 ### Upcoming prediction
 
-**Matchday 1** (8/23/25 - 8/25/25)
+**Matchday 2** (8/29/25 - 8/31/25)
 
 | Home Team | Away Team  | Predicted Result | Official Result |
 | --------- | ---------- | ---------------- | --------------- |
-| Genoa     | Lecce      | 1                |                 |
-| Sassuolo  | Napoli     | 2                |                 |
-| AC Milan  | Cremonese  | 1                |                 |
-| AS Roma   | Bologna    | 2                |                 |
-| Cagliari  | Fiorentina | 2                |                 |
-| Como      | Lazio      | X                |                 |
-| Atalanta  | Pisa       | 1                |                 |
-| Juventus  | Parma      | X                |                 |
-| Udinese   | Verona     | X                |                 |
-| Inter     | Torino     | 1                |                 |
+| Cremonese | Sassuolo   | 2                |                 |
+| Lecce     | AC Milan   | 2                |                 |
+| Bologna   | Como       | 2                |                 |
+| Parma     | Atalanta   | X                |                 |
+| Napoli    | Cagliari   | 1                |                 |
+| Pisa      | AS Roma    | 2                |                 |
+| Genoa     | Juventus   | 2                |                 |
+| Torino    | Fiorentina | X                |                 |
+| Inter     | Udinese    | 1                |                 |
+| Lazio     | Verona     | 1                |                 |
+
+### Previous Matchday Results
+
+| Home Team | Away Team  | Predicted Result | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | --------------- | ------------------- |
+| Sassuolo  | Napoli     | 2                | 2               | ✅                  |
+| Genoa     | Lecce      | 1                | X               | ❌                  |
+| AS Roma   | Bologna    | 2                | 1               | ❌                  |
+| AC Milan  | Cremonese  | 1                | 2               | ❌                  |
+| Como      | Lazio      | X                | 1               | ❌                  |
+| Cagliari  | Fiorentina | 2                | X               | ❌                  |
+| Juventus  | Parma      | X                | 1               | ❌                  |
+| Atalanta  | Pisa       | 1                | X               | ❌                  |
+| Udinese   | Verona     | X                | X               | ✅                  |
+| Inter     | Torino     | 1                | 1               | ✅                  |
 
 ### Previous Season (2024-2025) Results
 
