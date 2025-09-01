@@ -2,35 +2,35 @@
 
 ### Upcoming prediction
 
-**Matchday 2** (8/29/25 - 8/31/25)
+**Matchday 3** (9/13/25 - 9/15/25)
 
-| Home Team | Away Team  | Predicted Result | Official Result |
-| --------- | ---------- | ---------------- | --------------- |
-| Cremonese | Sassuolo   | 2                |                 |
-| Lecce     | AC Milan   | 2                |                 |
-| Bologna   | Como       | 2                |                 |
-| Parma     | Atalanta   | X                |                 |
-| Napoli    | Cagliari   | 1                |                 |
-| Pisa      | AS Roma    | 2                |                 |
-| Genoa     | Juventus   | 2                |                 |
-| Torino    | Fiorentina | X                |                 |
-| Inter     | Udinese    | 1                |                 |
-| Lazio     | Verona     | 1                |                 |
+| Home Team  | Away Team | Predicted Result | Official Result |
+| ---------- | --------- | ---------------- | --------------- |
+| Cagliari   | Parma     | 2                |                 |
+| Juventus   | Inter     | 2                |                 |
+| Fiorentina | Napoli    | 2                |                 |
+| AS Roma    | Torino    | 1                |                 |
+| Atalanta   | Lecce     | 1                |                 |
+| Pisa       | Udinese   | 2                |                 |
+| Sassuolo   | Lazio     | 2                |                 |
+| AC Milan   | Bologna   | X                |                 |
+| Verona     | Cremonese | X                |                 |
+| Como       | Genoa     | 1                |                 |
 
 ### Previous Matchday Results
 
-| Home Team | Away Team  | Predicted Result | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | --------------- | ------------------- |
-| Sassuolo  | Napoli     | 2                | 2               | ✅                  |
-| Genoa     | Lecce      | 1                | X               | ❌                  |
-| AS Roma   | Bologna    | 2                | 1               | ❌                  |
-| AC Milan  | Cremonese  | 1                | 2               | ❌                  |
-| Como      | Lazio      | X                | 1               | ❌                  |
-| Cagliari  | Fiorentina | 2                | X               | ❌                  |
-| Juventus  | Parma      | X                | 1               | ❌                  |
-| Atalanta  | Pisa       | 1                | X               | ❌                  |
-| Udinese   | Verona     | X                | X               | ✅                  |
-| Inter     | Torino     | 1                | 1               | ✅                  |
+| Home Team | Away Team  | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Cremonese | Sassuolo   | 2                | +179, +215, +166     | 1               | ❌                  |
+| Lecce     | AC Milan   | 2                | +557, +281, **-172** | 2               | ✅                  |
+| Parma     | Atalanta   | X                | +345, **+274**, -127 | X               | ✅                  |
+| Bologna   | Como       | 2                | +181, +209, +169     | 1               | ❌                  |
+| Pisa      | AS Roma    | 2                | +433, +252, **-137** | 2               | ✅                  |
+| Napoli    | Cagliari   | 1                | **-238**, +334, +775 | 1               | ✅                  |
+| Torino    | Fiorentina | X                | +222, **+202**, +144 | X               | ✅                  |
+| Genoa     | Juventus   | 2                | +403, +219, **-116** | 2               | ✅                  |
+| Lazio     | Verona     | 1                | **-175**, +286, +556 | 1               | ✅                  |
+| Inter     | Udinese    | 1                | -357, +482, +938     | 2               | ❌                  |
 
 ### Previous Season (2024-2025) Results
 
