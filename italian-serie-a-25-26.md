@@ -45,22 +45,22 @@ Notes:
 
 ## Matchday 3
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 4 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -9% return
 
-| Home Team  | Away Team | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
-| ---------- | --------- | ---------------- | ---------------- | --------------- | ------------------- |
-| Cagliari   | Parma     | 2                | +124, +223, +234 |                 |                     |
-| Juventus   | Inter     | 2                | +164, +208, +186 |                 |                     |
-| Fiorentina | Napoli    | 2                | +265, +222, +112 |                 |                     |
-| AS Roma    | Torino    | 1                | -185, +303, +538 |                 |                     |
-| Atalanta   | Lecce     | 1                | -227, +354, +629 |                 |                     |
-| Pisa       | Udinese   | 2                | +185, +213, +161 |                 |                     |
-| Sassuolo   | Lazio     | 2                | +249, +250, +106 |                 |                     |
-| AC Milan   | Bologna   | X                | -106, +250, +294 |                 |                     |
-| Verona     | Cremonese | X                | +129, +224, +223 |                 |                     |
-| Como       | Genoa     | 1                | -145, +267, +426 |                 |                     |
+| Home Team  | Away Team | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Cagliari   | Parma     | 2                | +127, +204, +249     | 1               | ❌                  |
+| Juventus   | Inter     | 2                | +175, +198, +177     | 1               | ❌                  |
+| Fiorentina | Napoli    | 2                | +311, +221, **+100** | 2               | ✅                  |
+| AS Roma    | Torino    | 1                | -189, +305, +577     | 2               | ❌                  |
+| Pisa       | Udinese   | 2                | +192, +197, **+171** | 2               | ✅                  |
+| Atalanta   | Lecce     | 1                | **-250**, +363, +742 | 1               | ✅                  |
+| Sassuolo   | Lazio     | 2                | +320, +250, -112     | 1               | ❌                  |
+| AC Milan   | Bologna   | X                | -130, +254, +382     | 1               | ❌                  |
+| Verona     | Cremonese | X                | +167, **+199**, +192 | X               | ✅                  |
+| Como       | Genoa     | 1                | -139, +252, +434     | X               | ❌                  |
 
 ## Matchday 4
 
@@ -70,16 +70,16 @@ Notes:
 
 | Home Team  | Away Team | Predicted Result | Betting Odds      | Official Result | Correct Prediction? |
 | ---------- | --------- | ---------------- | ----------------- | --------------- | ------------------- |
-| Bologna    | Genoa     |                  | -137, +264, +384  |                 |                     |
-| Cremonese  | Parma     |                  | +150, +220, +185  |                 |                     |
-| Fiorentina | Como      |                  | +141, +222, +200  |                 |                     |
-| Inter      | Sassuolo  |                  | -400, +471, +1000 |                 |                     |
-| Lazio      | AS Roma   |                  | +179, +227, +150  |                 |                     |
-| Lecce      | Cagliari  |                  | +156, +210, +187  |                 |                     |
-| Napoli     | Pisa      |                  | -455, +494, +1325 |                 |                     |
-| Torino     | Atalanta  |                  | +210, +225, +131  |                 |                     |
-| Udinese    | AC Milan  |                  | +333, +254, -122  |                 |                     |
-| Verona     | Juventus  |                  | +518, +284, -179  |                 |                     |
+| Bologna    | Genoa     | 1                | -137, +264, +384  |                 |                     |
+| Cremonese  | Parma     | X                | +150, +220, +185  |                 |                     |
+| Fiorentina | Como      | X                | +141, +222, +200  |                 |                     |
+| Inter      | Sassuolo  | 1                | -400, +471, +1000 |                 |                     |
+| Lazio      | AS Roma   | X                | +179, +227, +150  |                 |                     |
+| Lecce      | Cagliari  | 2                | +156, +210, +187  |                 |                     |
+| Napoli     | Pisa      | 1                | -455, +494, +1325 |                 |                     |
+| Torino     | Atalanta  | 2                | +210, +225, +131  |                 |                     |
+| Udinese    | AC Milan  | 2                | +333, +254, -122  |                 |                     |
+| Verona     | Juventus  | 2                | +518, +284, -179  |                 |                     |
 
 ## Matchday 5
 
