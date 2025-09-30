@@ -2,35 +2,35 @@
 
 ### Upcoming prediction
 
-**Matchday 5** (9/27/25 - 9/29/25)
+**Matchday 6** (10/3/25 - 10/5/25)
 
-| Home Team | Away Team  | Predicted Result | Official Result |
-| --------- | ---------- | ---------------- | --------------- |
-| Como      | Cremonese  | 1                |                 |
-| Juventus  | Atalanta   | 1                |                 |
-| Cagliari  | Inter      | 2                |                 |
-| Sassuolo  | Udinese    | X                |                 |
-| AS Roma   | Verona     | 1                |                 |
-| Pisa      | Fiorentina | 2                |                 |
-| Lecce     | Bologna    | 2                |                 |
-| AC Milan  | Napoli     | 1                |                 |
-| Parma     | Torino     | X                |                 |
-| Genoa     | Lazio      | X                |                 |
+| Home Team  | Away Team | Predicted Result |
+| ---------- | --------- | ---------------- |
+| Verona     | Sassuolo  | 2                |
+| Lazio      | Torino    | X                |
+| Parma      | Lecce     | X                |
+| Inter      | Cremonese | 1                |
+| Atalanta   | Como      | X                |
+| Udinese    | Cagliari  | 2                |
+| Bologna    | Pisa      | 1                |
+| Fiorentina | AS Roma   | 2                |
+| Napoli     | Genoa     | 1                |
+| Juventus   | AC Milan  | 2                |
 
 ### Previous Matchday Results
 
-| Home Team  | Away Team | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
-| ---------- | --------- | ---------------- | --------------------- | --------------- | ------------------- |
-| Lecce      | Cagliari  | 2                | +190, +191, **+177**  | 2               | ✅                  |
-| Bologna    | Genoa     | 1                | **+106**, +197, +337  | 1               | ✅                  |
-| Verona     | Juventus  | 2                | +594, +297, -185      | X               | ❌                  |
-| Udinese    | AC Milan  | 2                | +422, +301, **-152**  | 2               | ✅                  |
-| Lazio      | AS Roma   | X                | +183, +198, +183      | 2               | ❌                  |
-| Torino     | Atalanta  | 2                | +305, +225, **+104**  | 2               | ✅                  |
-| Cremonese  | Parma     | X                | +204, **+219**, +149  | X               | ✅                  |
-| Fiorentina | Como      | X                | +161, +227, +181      | 2               | ❌                  |
-| Inter      | Sassuolo  | 1                | **-312**, +455, +856  | 1               | ✅                  |
-| Napoli     | Pisa      | 1                | **-323**, +421, +1002 | 1               | ✅                  |
+| Home Team | Away Team  | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Como      | Cremonese  | 1                | -233, +348, +673     | X               | ❌                  |
+| Juventus  | Atalanta   | 1                | -105, +242, +312     | X               | ❌                  |
+| Cagliari  | Inter      | 2                | +558, +321, **-196** | 2               | ✅                  |
+| Sassuolo  | Udinese    | X                | +138, +213, +224     | 1               | ❌                  |
+| Pisa      | Fiorentina | 1                | +250, +225, +119     | X               | ❌                  |
+| AS Roma   | Verona     | 2                | -233, +333, +736     | 1               | ❌                  |
+| Lecce     | Bologna    | 2                | +451, +254, -141     | X               | ❌                  |
+| AC Milan  | Napoli     | 1                | **-110**, +247, +325 | 1               | ✅                  |
+| Parma     | Torino     | X                | +156, +195, +209     | 1               | ❌                  |
+| Genoa     | Lazio      | X                | +190, +196, +172     | 2               | ❌                  |
 
 ### Previous Season (2024-2025) Results
 
