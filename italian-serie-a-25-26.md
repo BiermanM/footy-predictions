@@ -273,22 +273,22 @@ Notes:
 
 ## Matchday 15
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 4 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -6.5% return
 
-| Home Team  | Away Team | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
-| ---------- | --------- | ---------------- | ---------------- | --------------- | ------------------- |
-| Lecce      | Pisa      | X                | +136, +198, +241 |                 |                     |
-| Torino     | Cremonese | X                | -104, +225, +323 |                 |                     |
-| Parma      | Lazio     | X                | +250, +227, +116 |                 |                     |
-| Atalanta   | Cagliari  | 1                | -294, +416, +773 |                 |                     |
-| AC Milan   | Sassuolo  | 1                | -238, +355, +666 |                 |                     |
-| Fiorentina | Verona    | 2                | -122, +249, +354 |                 |                     |
-| Udinese    | Napoli    | 2                | +324, +240, -110 |                 |                     |
-| Genoa      | Inter     | 2                | +532, +309, -189 |                 |                     |
-| Bologna    | Juventus  | 2                | +183, +217, +158 |                 |                     |
-| AS Roma    | Como      | X                | +112, +223, +267 |                 |                     |
+| Home Team  | Away Team | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Lecce      | Pisa      | X                | +150, +185, +231     | 1               | ❌                  |
+| Torino     | Cremonese | X                | +102, +237, +287     | 1               | ❌                  |
+| Parma      | Lazio     | X                | +289, +217, +110     | 2               | ❌                  |
+| Atalanta   | Cagliari  | 1                | **-294**, +409, +799 | 1               | ✅                  |
+| AC Milan   | Sassuolo  | 1                | -208, +333, +593     | X               | ❌                  |
+| Udinese    | Napoli    | 2                | +362, +233, -114     | 1               | ❌                  |
+| Fiorentina | Verona    | 2                | -101, +217, **+328** | 2               | ✅                  |
+| Genoa      | Inter     | 2                | +649, +326, **-217** | 2               | ✅                  |
+| Bologna    | Juventus  | 2                | +237, +218, **+127** | 2               | ✅                  |
+| AS Roma    | Como      | X                | +121, +214, +261     | 1               | ❌                  |
 
 ## Matchday 16
 
@@ -296,8 +296,18 @@ Notes:
 
 #### Betting Result: ?% return
 
-| Home Team | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Home Team  | Away Team | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | ---------------- | --------------- | ------------------- |
+| Lazio      | Cremonese | 1                | -164, +286, +483 |                 |                     |
+| Juventus   | AS Roma   | X                | +106, +223, +288 |                 |                     |
+| Cagliari   | Pisa      | X                | +124, +218, +240 |                 |                     |
+| Sassuolo   | Torino    | 1                | +137, +214, +224 |                 |                     |
+| Fiorentina | Udinese   | 2                | +114, +231, +252 |                 |                     |
+| Genoa      | Atalanta  | 2                | +300, +242, -104 |                 |                     |
+| Napoli     | Parma     | 1                |                  |                 |                     |
+| Inter      | Lecce     | 1                |                  |                 |                     |
+| Verona     | Bologna   | 2                |                  |                 |                     |
+| Como       | AC Milan  | 2                |                  |                 |                     |
 
 ## Matchday 17
 
