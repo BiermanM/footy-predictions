@@ -292,22 +292,22 @@ Notes:
 
 ## Matchday 16
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 5 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: +9.4% return
 
-| Home Team  | Away Team | Predicted Result | Betting Odds      | Official Result | Correct Prediction? |
-| ---------- | --------- | ---------------- | ----------------- | --------------- | ------------------- |
-| Lazio      | Cremonese | 1                | -185, +298, +572  | X               | ❌                  |
-| Juventus   | AS Roma   | X                | +102, +212, +321  | 1               | ❌                  |
-| Cagliari   | Pisa      | X                | +102, +215, +318  | X               | ✅                  |
-| Sassuolo   | Torino    | 1                | +137, +206, +227  | 2               | ❌                  |
-| Fiorentina | Udinese   | 2                | +110, +221, +277  | 1               | ❌                  |
-| Genoa      | Atalanta  | 2                | +284, +224, +106  | 2               | ✅                  |
-| Napoli     | Parma     | 1                | -303, +401, +844  |                 |                     |
-| Inter      | Lecce     | 1                | -714, +719, +1730 |                 |                     |
-| Verona     | Bologna   | 2                | +261, +222, +110  |                 |                     |
-| Como       | AC Milan  | 2                | +191, +219, +148  |                 |                     |
+| Home Team  | Away Team | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | --------------------- | --------------- | ------------------- |
+| Lazio      | Cremonese | 1                | -185, +298, +572      | X               | ❌                  |
+| Juventus   | AS Roma   | X                | +102, +212, +321      | 1               | ❌                  |
+| Cagliari   | Pisa      | X                | +102, **+215**, +318  | X               | ✅                  |
+| Sassuolo   | Torino    | 1                | +137, +206, +227      | 2               | ❌                  |
+| Fiorentina | Udinese   | 2                | +110, +221, +277      | 1               | ❌                  |
+| Genoa      | Atalanta  | 2                | +284, +224, **+106**  | 2               | ✅                  |
+| Napoli     | Parma     | 1                | -323, +412, +925      | X               | ❌                  |
+| Inter      | Lecce     | 1                | **-588**, +655, +1410 | 1               | ✅                  |
+| Verona     | Bologna   | 2                | +275, +206, **+114**  | 2               | ✅                  |
+| Como       | AC Milan  | 2                | +202, +214, **+142**  | 2               | ✅                  |
 
 ## Matchday 17
 
