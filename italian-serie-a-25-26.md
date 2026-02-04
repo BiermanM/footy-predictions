@@ -425,22 +425,22 @@ Notes:
 
 ## Matchday 23
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 8 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: +72.4% return
 
-| Home Team | Away Team  | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | ---------------- | --------------- | ------------------- |
-| Lazio     | Genoa      | 1                | -116, +221, +343 |                 |                     |
-| Pisa      | Sassuolo   | 2                | +187, +206, +154 |                 |                     |
-| Napoli    | Fiorentina | 1                | -152, +259, +426 |                 |                     |
-| Cagliari  | Verona     | 1                | +141, +194, +219 |                 |                     |
-| Torino    | Lecce      | X                | -120, +221, +371 |                 |                     |
-| Como      | Atalanta   | X                | +145, +231, +183 |                 |                     |
-| Cremonese | Inter      | 2                | +813, +408, -323 |                 |                     |
-| Parma     | Juventus   | 2                | +581, +309, -217 |                 |                     |
-| Udinese   | AS Roma    | 2                | +288, +229, -102 |                 |                     |
-| Bologna   | AC Milan   | 2                | +248, +236, +106 |                 |                     |
+| Home Team | Away Team  | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | --------------------- | --------------- | ------------------- |
+| Lazio     | Genoa      | 1                | **+125**, +188, +275  | 1               | ✅                  |
+| Pisa      | Sassuolo   | 2                | +208, +204, **+148**  | 2               | ✅                  |
+| Napoli    | Fiorentina | 1                | **-106**, +219, +338  | 1               | ✅                  |
+| Cagliari  | Verona     | 1                | **+120**, +198, +274  | 1               | ✅                  |
+| Torino    | Lecce      | X                | +114, +188, +304      | 1               | ❌                  |
+| Como      | Atalanta   | X                | +133, **+224**, +218  | X               | ✅                  |
+| Cremonese | Inter      | 2                | +1050, +466, **-400** | 2               | ✅                  |
+| Parma     | Juventus   | 2                | +738, +349, **-244**  | 2               | ✅                  |
+| Udinese   | AS Roma    | 2                | +338, +211, -101      | 1               | ❌                  |
+| Bologna   | AC Milan   | 2                | +211, +206, **+147**  | 2               | ✅                  |
 
 ## Matchday 24
 
@@ -448,8 +448,18 @@ Notes:
 
 #### Betting Result: ?% return
 
-| Home Team | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Home Team  | Away Team | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | ---------------- | --------------- | ------------------- |
+| Verona     | Pisa      | 1                | +127, +209, +245 |                 |                     |
+| Genoa      | Napoli    | 2                | +338, +216, -106 |                 |                     |
+| Fiorentina | Torino    | 1                | -123, +256, +341 |                 |                     |
+| Bologna    | Parma     | 1                | -172, +297, +471 |                 |                     |
+| Lecce      | Udinese   | 2                | +196, +188, +167 |                 |                     |
+| Sassuolo   | Inter     | 2                | +525, +338, -204 |                 |                     |
+| Juventus   | Lazio     | X                | -200, +303, +603 |                 |                     |
+| Atalanta   | Cremonese | 1                | -270, +396, +702 |                 |                     |
+| AS Roma    | Cagliari  | 1                | -222, +326, +656 |                 |                     |
+| AC Milan   | Como      | 1                | +102, +229, +250 |                 |                     |
 
 ## Matchday 25
 
@@ -457,8 +467,18 @@ Notes:
 
 #### Betting Result: ?% return
 
-| Home Team | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Home Team | Away Team  | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | ---------------- | --------------- | ------------------- |
+| Pisa      | AC Milan   |                  | +475, +296, -182 |                 |                     |
+| Como      | Fiorentina |                  | -141, +277, +372 |                 |                     |
+| Lazio     | Atalanta   |                  | +227, +220, +125 |                 |                     |
+| Inter     | Juventus   |                  | +112, +236, +244 |                 |                     |
+| Udinese   | Sassuolo   |                  | +133, +206, +227 |                 |                     |
+| Cremonese | Genoa      |                  | +195, +198, +156 |                 |                     |
+| Parma     | Verona     |                  | +139, +195, +231 |                 |                     |
+| Torino    | Bologna    |                  | +220, +229, +124 |                 |                     |
+| Napoli    | AS Roma    |                  | +123, +204, +243 |                 |                     |
+| Cagliari  | Lecce      |                  | +106, +204, +301 |                 |                     |
 
 ## Matchday 26
 
