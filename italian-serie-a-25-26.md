@@ -444,9 +444,9 @@ Notes:
 
 ## Matchday 24
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 4 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -12.8% return
 
 | Home Team  | Away Team | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
 | ---------- | --------- | ---------------- | -------------------- | --------------- | ------------------- |
@@ -459,7 +459,7 @@ Notes:
 | Juventus   | Lazio     | X                | -244, **+342**, +746 | X               | ✅                  |
 | Atalanta   | Cremonese | 1                | **-278**, +398, +706 | 1               | ✅                  |
 | AS Roma    | Cagliari  | 1                | **-208**, +307, +642 | 1               | ✅                  |
-| AC Milan   | Como      | 1                | +102, +229, +250     |                 |                     |
+| AC Milan   | Como      | 1                | +102, +229, +250     | X               | ❌                  |
 
 ## Matchday 25
 
