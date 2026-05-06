@@ -653,22 +653,22 @@ Notes:
 
 ## Matchday 35
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 5 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: +6.7% return
 
-| Home Team | Away Team  | Predicted Result | Betting Odds      | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | ----------------- | --------------- | ------------------- |
-| Pisa      | Lecce      | 2                | +150, +210, +188  |                 |                     |
-| Udinese   | Torino     | 2                | +114, +225, +240  |                 |                     |
-| Como      | Napoli     | 2                | +125, +220, +210  |                 |                     |
-| Atalanta  | Genoa      | 1                | -175, +280, +475  |                 |                     |
-| Bologna   | Cagliari   | X                | -167, +270, +450  |                 |                     |
-| Sassuolo  | AC Milan   | 2                | +400, +290, -167  |                 |                     |
-| Juventus  | Verona     | 1                | -345, +375, +1000 |                 |                     |
-| Inter     | Parma      | 1                | -370, +425, +900  |                 |                     |
-| Cremonese | Lazio      | 2                | +240, +229, +110  |                 |                     |
-| AS Roma   | Fiorentina | 1                | -143, +260, +375  |                 |                     |
+| Home Team | Away Team  | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | --------------------- | --------------- | ------------------- |
+| Pisa      | Lecce      | 2                | +240, +200, **+140**  | 2               | ✅                  |
+| Udinese   | Torino     | 2                | +100, +229, +300      | 1               | ❌                  |
+| Como      | Napoli     | 2                | +125, +220, +250      | X               | ❌                  |
+| Atalanta  | Genoa      | 1                | -196, +350, +550      | X               | ❌                  |
+| Bologna   | Cagliari   | X                | +125, **+210**, +260  | X               | ✅                  |
+| Sassuolo  | AC Milan   | 2                | +380, +300, -133      | 1               | ❌                  |
+| Juventus  | Verona     | 1                | -500, +650, +1400     | X               | ❌                  |
+| Inter     | Parma      | 1                | **-455**, +600, +1200 | 1               | ✅                  |
+| Cremonese | Lazio      | 2                | +220, +220, **+140**  | 2               | ✅                  |
+| AS Roma   | Fiorentina | 1                | **-182**, +333, +550  | 1               | ✅                  |
 
 ## Matchday 36
 
@@ -676,8 +676,18 @@ Notes:
 
 #### Betting Result: ?% return
 
-| Home Team | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Home Team  | Away Team | Predicted Result | Betting Odds     | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | ---------------- | --------------- | ------------------- |
+| Torino     | Sassuolo  | X                | +140, +240, +200 |                 |                     |
+| Cagliari   | Udinese   | X                | +145, +220, +200 |                 |                     |
+| Lazio      | Inter     | X                | +350, +270, -125 |                 |                     |
+| Lecce      | Juventus  | 2                | +550, +333, -189 |                 |                     |
+| Verona     | Como      | 2                | +700, +350, -227 |                 |                     |
+| Cremonese  | Pisa      | 1                | -141, +290, +420 |                 |                     |
+| Fiorentina | Genoa     | 1                | +104, +240, +275 |                 |                     |
+| Parma      | AS Roma   | 2                | +525, +290, -164 |                 |                     |
+| AC Milan   | Atalanta  | 1                | +104, +260, +270 |                 |                     |
+| Napoli     | Bologna   | 1                | -172, +309, +525 |                 |                     |
 
 ## Matchday 37
 
@@ -685,8 +695,19 @@ Notes:
 
 #### Betting Result: ?% return
 
-| Home Team | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
+| Home Team | Away Team  | Predicted Result | Betting Odds      | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | ----------------- | --------------- | ------------------- |
+| Genoa     | AC Milan   |                  | +340, +260, -130  |                 |                     |
+| AS Roma   | Lazio      |                  | -167, +290, +430  |                 |                     |
+| Cagliari  | Torino     |                  | +140, +210, +215  |                 |                     |
+| Atalanta  | Bologna    |                  | -164, +309, +380  |                 |                     |
+| Cagliari  | Torino     |                  | +140, +210, +215  |                 |                     |
+| Como      | Parma      |                  | -323, +430, +750  |                 |                     |
+| Udinese   | Cremonese  |                  | +100, +240, +280  |                 |                     |
+| Juventus  | Fiorentina |                  | -270, +380, +600  |                 |                     |
+| Inter     | Verona     |                  | -667, +600, +1200 |                 |                     |
+| Sassuolo  | Lecce      |                  | +125, +229, +220  |                 |                     |
+| Pisa      | Napoli     |                  | +600, +359, -256  |                 |                     |
 
 ## Matchday 38
 
