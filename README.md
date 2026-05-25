@@ -1,38 +1,50 @@
 # Footy Predictions
 
-### Upcoming prediction
+### Previous Season (2025-2026) Results
 
-**Matchday 38** (5/24/26)
+| Matchday  | Accuracy   | Betting Return |
+| --------- | ---------- | -------------- |
+| 1         | 30%        | -38%           |
+| 2         | 70%        | +49.2%         |
+| 3         | 40%        | -9%            |
+| 4         | 70%        | +43.5%         |
+| 5         | 20%        | -65.8%         |
+| 6         | 70%        | +66.6%         |
+| 7         | 60%        | +55.8%         |
+| 8         | 30%        | -24.4%         |
+| 9         | 50%        | -24.9%         |
+| 10        | 50%        | -11.5%         |
+| 11        | 40%        | -14.8%         |
+| 12        | 90%        | +138%          |
+| 13        | 60%        | -3%            |
+| 14        | 40%        | -6.6%          |
+| 15        | 40%        | -6.5%          |
+| 16        | 50%        | +9.4%          |
+| 17        | 60%        | -0.4%          |
+| 18        | 60%        | +32.8%         |
+| 19        | 50%        | -4.7%          |
+| 20        | 40%        | -14.8%         |
+| 21        | 50%        | -11.8%         |
+| 22        | 40%        | -24.5%         |
+| 23        | 80%        | +72.4%         |
+| 24        | 40%        | -12.8%         |
+| 25        | 50%        | +9.8%          |
+| 26        | 60%        | +11.5%         |
+| 27        | 60%        | +7.5%          |
+| 28        | 50%        | -1.8%          |
+| 29        | 50%        | +6.1%          |
+| 30        | 50%        | -26.4%         |
+| 31        | 70%        | +52.7%         |
+| 32        | 50%        | -4.4%          |
+| 33        | 50%        | +19.7%         |
+| 34        | 40%        | -15.2%         |
+| 35        | 50%        | +6.7%          |
+| 36        | 40%        | -38.3%         |
+| 37        | 40%        | -40.6%         |
+| 38        | 50%        | -5.3%          |
+| **Total** | **51.05%** | **+4.64%**     |
 
-| Home Team  | Away Team | Predicted Result |
-| ---------- | --------- | ---------------- |
-| Fiorentina | Atalanta  | 2                |
-| Bologna    | Inter     | 2                |
-| Lazio      | Pisa      | 1                |
-| Parma      | Sassuolo  | 1                |
-| Napoli     | Udinese   | 1                |
-| AC Milan   | Cagliari  | 1                |
-| Verona     | AS Roma   | 2                |
-| Cremonese  | Como      | 2                |
-| Lecce      | Genoa     | X                |
-| Torino     | Juventus  | 2                |
-
-### Previous Matchday Results
-
-| Home Team | Away Team  | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | --------------------- | --------------- | ------------------- |
-| Pisa      | Napoli     | 2                | +750, +350, **-227**  | 2               | ✅                  |
-| Juventus  | Fiorentina | 1                | -303, +500, +750      | 2               | ❌                  |
-| Como      | Parma      | 1                | **-400**, +525, +1200 | 1               | ✅                  |
-| AS Roma   | Lazio      | 1                | **-189**, +320, +550  | 1               | ✅                  |
-| Genoa     | AC Milan   | 2                | +440, +275, **-139**  | 2               | ✅                  |
-| Inter     | Verona     | 1                | -250, +420, +675      | X               | ❌                  |
-| Atalanta  | Bologna    | 1                | -135, +300, +350      | 2               | ❌                  |
-| Sassuolo  | Lecce      | 1                | +154, +225, +190      | 2               | ❌                  |
-| Udinese   | Cremonese  | 1                | +145, +220, +210      | 2               | ❌                  |
-| Cagliari  | Torino     | X                | +114, +210, +270      | 1               | ❌                  |
-
-### Previous Season (2024-2025) Results
+### 2024-2025 Season Results
 
 | Matchday  | Accuracy   | Betting Return |
 | --------- | ---------- | -------------- |

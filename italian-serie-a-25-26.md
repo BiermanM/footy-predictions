@@ -710,19 +710,19 @@ Notes:
 
 ## Matchday 38
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 5 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -5.3% return
 
-| Home Team  | Away Team | Predicted Result | Betting Odds      | Official Result | Correct Prediction? |
-| ---------- | --------- | ---------------- | ----------------- | --------------- | ------------------- |
-| Fiorentina | Atalanta  | 2                | +179, +260, +145  |                 |                     |
-| Bologna    | Inter     | 2                | +200, +280, +129  |                 |                     |
-| Lazio      | Pisa      | 1                | -189, +340, +550  |                 |                     |
-| Parma      | Sassuolo  | 1                | +170, +240, +160  |                 |                     |
-| Napoli     | Udinese   | 1                | -192, +320, +600  |                 |                     |
-| AC Milan   | Cagliari  | 1                | -323, +450, +1000 |                 |                     |
-| Verona     | AS Roma   | 2                | +900, +425, -294  |                 |                     |
-| Cremonese  | Como      | 2                | +430, +320, -164  |                 |                     |
-| Lecce      | Genoa     | X                | -139, +250, +470  |                 |                     |
-| Torino     | Juventus  | 2                | +750, +375, -238  |                 |                     |
+| Home Team  | Away Team | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| ---------- | --------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Fiorentina | Atalanta  | 2                | +215, +290, +125     | X               | ❌                  |
+| Bologna    | Inter     | 2                | +260, +265, +110     | X               | ❌                  |
+| Lazio      | Pisa      | 1                | **-141**, +285, +425 | 1               | ✅                  |
+| Parma      | Sassuolo  | 1                | **+225**, +250, +140 | 1               | ✅                  |
+| Napoli     | Udinese   | 1                | **-175**, +325, +550 | 1               | ✅                  |
+| Torino     | Juventus  | 2                | +560, +375, -189     | X               | ❌                  |
+| Lecce      | Genoa     | X                | -104, +225, +355     | 1               | ❌                  |
+| Cremonese  | Como      | 2                | +500, +345, **-175** | 2               | ✅                  |
+| Verona     | AS Roma   | 2                | +900, +425, **-270** | 2               | ✅                  |
+| AC Milan   | Cagliari  | 1                | -263, +395, +1000    | 2               | ❌                  |
