@@ -156,8 +156,10 @@ export function computeCompletedGames(games) {
   };
 }
 
-export function computeNextGames(games) {
-  return games.map((g) => [g.home, g.away, g.predicted, g.odds.map(formatOdds).join(", "), "", ""]);
+// Predictions are recorded without odds — odds are only captured later,
+// alongside the result, in insert-results.
+export function computePredictedGames(games) {
+  return games.map((g) => [g.home, g.away, g.predicted, "", "", ""]);
 }
 
 // ---- README.md section editing ----

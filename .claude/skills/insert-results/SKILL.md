@@ -5,18 +5,20 @@ description: Insert official results and closing betting odds for a finished foo
 
 # Insert results
 
-Fills in a matchday's `Official Result` / `Correct Prediction?` columns,
-computes accuracy and betting return, bolds the winning odds (only on
-correct picks), and updates README.md. This only works on a matchday that
-already has predictions + odds recorded (via `insert-predictions`) — it
-looks up the existing predicted pick by matching each game's home/away
-team name, so you never re-type the prediction, only the outcome.
+Fills in a matchday's `Betting Odds` / `Official Result` / `Correct
+Prediction?` columns, computes accuracy and betting return, bolds the
+winning odds (only on correct picks), and updates README.md. This is the
+**only** place odds get recorded — `insert-predictions` deliberately
+doesn't ask for them. This only works on a matchday that already has
+predictions filled in (via `insert-predictions`) — it looks up the
+existing predicted pick by matching each game's home/away team name, so
+you never re-type the prediction, only the outcome and odds.
 
 ## Step 1: Figure out which matchday
 
 Find the current season file: `italian-serie-a-*.md` (highest season
 suffix). The matchday to close out is the first `## Matchday N` section
-that has predictions + odds filled in but still reads `? / 10 correct
+that has predictions filled in but still reads `? / 10 correct
 predictions`.
 
 Check whether `N` is the season's last matchday (its `## Matchday N+1`
@@ -28,11 +30,8 @@ update; see below.
 Ask the user (or take from what they paste — typically copied from
 [OddsPortal](https://www.oddsportal.com/football/italy/serie-a/results))
 for each of the 10 games: the official result (`1`/`X`/`2`) and the
-*closing* betting odds (home/draw/away, American odds as plain signed
-integers). Note closing odds are usually different from the odds recorded
-at prediction time — that's expected and matches this repo's existing
-history (odds move as kickoff approaches; what's recorded here is the
-closing line).
+closing betting odds (home/draw/away, American odds as plain signed
+integers).
 
 You do not need the user's predicted pick — it's read from the existing
 row in the season file.

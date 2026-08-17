@@ -1,37 +1,55 @@
 ---
 name: insert-predictions
-description: Insert this week's predicted results and betting odds for the next matchday into a footy-predictions season file, and update README.md's "Upcoming prediction" section. Use whenever the user wants to log their predictions for an upcoming Serie A matchday. Pairs with insert-results (for the matchday that just finished) and populate-season-fixtures (run once per season before this).
+description: Insert this week's predicted results for the next matchday into a footy-predictions season file, and update README.md's "Upcoming prediction" section. Presents the fixtures as a fill-in-the-blank form so the user only has to supply their picks. Use whenever the user wants to log predictions for an upcoming Serie A matchday. Pairs with insert-results (which records odds, results, and score once the matchday is played) and populate-season-fixtures (run once per season before this).
 ---
 
 # Insert predictions
 
-Fills in one matchday's `Predicted Result` and `Betting Odds` columns in
-the season markdown file, and replaces README.md's `### Upcoming
-prediction` section to match. This is the one step in the weekly cycle
-that's inherently manual — the prediction itself is the user's judgment
-call. Everything else (team names, formatting, math) should require no
-typing from them beyond that.
+Fills in one matchday's `Predicted Result` column in the season markdown
+file, and replaces README.md's `### Upcoming prediction` section to match.
+No betting odds here — odds are only recorded later, alongside the result,
+by `insert-results`. The only thing this skill needs from the user is
+their pick for each game.
 
 ## Step 1: Figure out which matchday
 
 Find the current season file: `italian-serie-a-*.md` (highest season
 suffix). The matchday to fill in is the first `## Matchday N` section
-whose accuracy line still reads `? / 10 correct predictions` **and** whose
-table has no `Predicted Result` filled in yet (it may have team names
-already, from `populate-season-fixtures`, or be fully empty if that skill
-was never run for this matchday — either is fine).
+whose `Predicted Result` column is still blank — whether or not it already
+has team names (from `populate-season-fixtures`) or dates.
 
-## Step 2: Get the data
+If that section has no team names either (never scaffolded), ask the user
+for that matchday's fixtures first — you'll need home/away pairs to build
+the form in step 2.
 
-Ask the user for their predictions and odds for that matchday's 10 games:
-home team, away team (if not already scaffolded — reuse the exact spelling
-from the file if it is, to keep `insert-results` able to match rows
-later), predicted result (`1`/`X`/`2`), and the three American odds
-(home/draw/away) as plain signed integers (e.g. `-150`, `+300`). If the
-user gives decimal or fractional odds, convert to American odds first.
+## Step 2: Present the matchday as a form
 
-Also get the matchday's date: a single date (`5/24/26`) if all games are
-one day, or a range (`5/1/26 - 5/4/26`) if they span the weekend.
+Don't ask the user to hand you JSON or a pasted table. Pull the fixtures
+straight out of the season file and present them back as a numbered
+fill-in-the-blank list, one line per game, so the user only has to type
+their pick against each. For example:
+
+```
+Matchday 5 — reply with 1 (home win), X (draw), or 2 (away win) for each:
+
+1. Torino vs Sassuolo:
+2. Cagliari vs Udinese:
+3. Lazio vs Inter:
+4. Lecce vs Juventus:
+5. Verona vs Como:
+6. Cremonese vs Pisa:
+7. Fiorentina vs Genoa:
+8. Parma vs AS Roma:
+9. AC Milan vs Atalanta:
+10. Napoli vs Bologna:
+
+Date(s) for this matchday:
+```
+
+Wait for their reply (a single message filling in the blanks is fine —
+parse `1`/`X`/`2` per line loosely, e.g. "1" / "home" / "draw" / "away" all
+map cleanly). If anything's ambiguous or missing, ask a quick follow-up
+rather than guessing a pick.
 
 ## Step 3: Build the input JSON and run the script
 
@@ -41,12 +59,12 @@ one day, or a range (`5/1/26 - 5/4/26`) if they span the weekend.
   "matchday": 38,
   "date": "5/24/26",
   "games": [
-    { "home": "Fiorentina", "away": "Atalanta", "predicted": "2", "odds": [179, 260, 145] }
+    { "home": "Fiorentina", "away": "Atalanta", "predicted": "2" }
   ]
 }
 ```
 
-(`games` needs all 10 entries.) Run from the repo root:
+(`games` needs all 10 entries, no `odds` field.) Run from the repo root:
 
 ```
 node .claude/skills/insert-predictions/scripts/insert-predictions.mjs <input.json>
@@ -58,15 +76,16 @@ Then format both touched files:
 npx prettier --write README.md italian-serie-a-*.md
 ```
 
-The script replaces that matchday's section in the season file (keeping
-its `? / 10` / `?% return` headers — no results yet) and replaces or
-inserts README's `### Upcoming prediction` section.
+The script replaces that matchday's section in the season file (team names
++ predictions filled in, `Betting Odds`/`Official Result`/`Correct
+Prediction?` columns left blank, headers still `? / 10` / `?% return`) and
+replaces or inserts README's `### Upcoming prediction` section.
 
 ## Step 4: Verify and commit
 
-`git diff` both files, sanity-check team names/picks/odds against what the
-user gave you, then show them a short summary before committing. Commit
-message convention (see `git log`): usually part of a combined weekly
-commit like `Added matchday 37 results + matchday 38 predictions` if
-`insert-results` just ran too, or standalone `Added matchday 1
+`git diff` both files, confirm the picks match what the user gave you,
+then show them a short summary before committing. Commit message
+convention (see `git log`): usually part of a combined weekly commit like
+`Added matchday 37 results + matchday 38 predictions` if `insert-results`
+just ran too for the prior matchday, or standalone `Added matchday 1
 predictions` for a season opener. Only push if asked.

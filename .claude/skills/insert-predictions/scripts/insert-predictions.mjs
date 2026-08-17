@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-// Fills in predictions + odds for one matchday (its fixtures are expected
-// to already exist in the season file, e.g. from populate-season-fixtures,
-// though this will also work against a fully empty placeholder section).
+// Fills in predictions (no odds — those are only recorded later, alongside
+// the result, by insert-results) for one matchday. Its fixtures are
+// expected to already exist in the season file, e.g. from
+// populate-season-fixtures, though this will also work against a fully
+// empty placeholder section.
 // Updates README.md's "Upcoming prediction" section to match.
 // Usage: node insert-predictions.mjs <input.json>   (run from repo root)
 // See ../SKILL.md for the JSON schema.
@@ -15,7 +17,7 @@ import {
   writeSeasonFile,
   findSection,
   buildChunk,
-  computeNextGames,
+  computePredictedGames,
   rawTable,
   upsertReadmeSection,
 } from "../../footy-shared/lib.mjs";
@@ -26,7 +28,7 @@ function main() {
 
   const { preamble, sections } = loadSeasonFile(seasonPath);
   const idx = findSection(sections, input.matchday);
-  const rows = computeNextGames(input.games);
+  const rows = computePredictedGames(input.games);
   sections[idx].text = buildChunk(input.matchday, "? / 10 correct predictions", "?% return", rows);
   writeSeasonFile(seasonPath, preamble, sections);
 
