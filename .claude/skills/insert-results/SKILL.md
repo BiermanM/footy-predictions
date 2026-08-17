@@ -105,3 +105,28 @@ end-of-season summary` for a season-end update. Only push if asked.
   `100/|odds| + 1` for negative. Return % = `(total payout - 10) / 10 *
   100`, rounded to 1 decimal for a single matchday, 2 decimals for the
   season-total average.
+
+## Automating results/odds ingestion (not yet built)
+
+Step 2 above is still manual paste. Investigated automating it — findings:
+
+- **api-sports.io / API-Football** is the strongest candidate: one free
+  API key (100 req/day, no card required) reportedly covers fixtures,
+  results, *and* pre-match odds in a single provider — the only one found
+  that could realistically replace step 2 entirely. Unverified: whether
+  the free tier's odds coverage/season access has quiet restrictions
+  beyond the daily quota (sources conflicted). Needs a real signup +
+  request to confirm before wiring anything in.
+- **the-odds-api.com** is odds-only and reputable, but Serie A + American
+  odds format needs a paid tier (~$29/mo) — sources disagreed on whether
+  the free tier includes soccer at all.
+- **football-data.org** has a solid free tier for fixtures/results but
+  carries no odds data, so it can't cover the odds half on its own.
+- This research couldn't be verified against live responses: this repo's
+  usual execution environment blocks essentially all outbound HTTP
+  (confirmed against several unrelated domains, not just odds/gambling
+  sites), so no API call here could be tested end-to-end. Before writing
+  an integration, get a free api-sports.io key, confirm what a real
+  odds+fixtures response looks like (ideally from an environment with
+  working network access), and only then add the fetch/parse step to this
+  script.

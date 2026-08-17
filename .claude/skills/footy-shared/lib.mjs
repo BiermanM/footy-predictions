@@ -121,6 +121,18 @@ export function lookupExisting(sectionRows, home, away) {
   return row;
 }
 
+// Pull a section's existing "#### Accuracy: ..." / "#### Betting Result: ..."
+// header text back out, so an edit that only touches the table (e.g.
+// relocating a fixture) can rebuild the chunk without disturbing headers.
+export function extractHeaderTexts(chunkText) {
+  const acc = chunkText.match(/#### Accuracy: (.*)/);
+  const bet = chunkText.match(/#### Betting Result: (.*)/);
+  if (!acc || !bet) {
+    throw new Error("Could not find Accuracy/Betting Result headers in matchday section");
+  }
+  return { accuracyText: acc[1], bettingText: bet[1] };
+}
+
 // ---- Scoring math ----
 
 export function computeCompletedGames(games) {
