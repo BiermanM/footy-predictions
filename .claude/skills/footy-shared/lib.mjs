@@ -121,28 +121,68 @@ export function lookupExisting(sectionRows, home, away) {
   return row;
 }
 
+// The highest-numbered matchday section that has predictions recorded —
+// i.e. the "current" week in the normal weekly cadence. Note this is
+// deliberately *not* "the earliest incomplete matchday": a postponed game
+// can leave an older matchday incomplete for weeks while later ones
+// proceed normally (this repo's own history has exactly that — matchday
+// 16 stayed partial for ~5 weeks while 17-21 were resolved on schedule).
+// Backfilling an old partial matchday needs an explicit matchday number.
+export function findLatestMatchdayWithPredictions(sections) {
+  const withPredictions = sections.filter((s) => s.rows.some((r) => r[2]));
+  if (withPredictions.length === 0) {
+    throw new Error(
+      "No matchday has predictions recorded yet — run insert-predictions first, or pass an explicit matchday number."
+    );
+  }
+  return withPredictions[withPredictions.length - 1].number;
+}
+
 // ---- Scoring math ----
+
+// Formats one completed game into a table row, bolding the winning odds
+// only when the prediction was correct. Returns the payout info too, so
+// callers can accumulate accuracy/betting-return across many rows.
+export function formatCompletedRow(g) {
+  const idx = RESULT_INDEX[g.result];
+  if (idx === undefined) {
+    throw new Error(`Invalid result "${g.result}" for ${g.home} vs ${g.away}`);
+  }
+  const isCorrect = g.predicted === g.result;
+  const oddsStr = g.odds
+    .map((o, i) => {
+      const s = formatOdds(o);
+      return isCorrect && i === idx ? `**${s}**` : s;
+    })
+    .join(", ");
+  return {
+    row: [g.home, g.away, g.predicted, oddsStr, g.result, isCorrect ? "✅" : "❌"],
+    isCorrect,
+    payout: isCorrect ? payoutFor(g.odds[idx]) : 0,
+  };
+}
+
+// Reverses formatCompletedRow: turns an already-formatted table row (as
+// stored in the season file, "**" bolding and all) back into structured
+// game data. Used to fold previously-recorded rows back into a fresh
+// accuracy/betting-return calculation once a partially-filled matchday
+// finally gets its last result.
+export function parseFormattedRow(row) {
+  const [home, away, predicted, oddsStr, result] = row;
+  const odds = oddsStr.split(",").map((s) => parseInt(s.replace(/\*\*/g, "").trim(), 10));
+  return { home, away, predicted, result, odds };
+}
 
 export function computeCompletedGames(games) {
   let correct = 0;
   let totalPayout = 0;
   const rows = games.map((g) => {
-    const idx = RESULT_INDEX[g.result];
-    if (idx === undefined) {
-      throw new Error(`Invalid result "${g.result}" for ${g.home} vs ${g.away}`);
-    }
-    const isCorrect = g.predicted === g.result;
+    const { row, isCorrect, payout } = formatCompletedRow(g);
     if (isCorrect) {
       correct += 1;
-      totalPayout += payoutFor(g.odds[idx]);
+      totalPayout += payout;
     }
-    const oddsStr = g.odds
-      .map((o, i) => {
-        const s = formatOdds(o);
-        return isCorrect && i === idx ? `**${s}**` : s;
-      })
-      .join(", ");
-    return [g.home, g.away, g.predicted, oddsStr, g.result, isCorrect ? "✅" : "❌"];
+    return row;
   });
   const returnPct = ((totalPayout - games.length) / games.length) * 100;
   return {
@@ -180,7 +220,14 @@ export function upsertReadmeSection(content, heading, block, insertAfterHeading 
       return content.replace(afterRe, `$1${block}`);
     }
   }
-  return content.replace(/^# Footy Predictions\n\n/, `# Footy Predictions\n\n${block}`);
+  const h1Re = /^# Footy Predictions\n\n/;
+  if (!h1Re.test(content)) {
+    throw new Error(
+      `Could not find a place to insert "### ${heading}" in README.md — no matching section, ` +
+        `no "### ${insertAfterHeading}" to insert after, and no "# Footy Predictions\\n\\n" H1 either.`
+    );
+  }
+  return content.replace(h1Re, `# Footy Predictions\n\n${block}`);
 }
 
 export function removeReadmeSection(content, heading) {
@@ -192,11 +239,16 @@ export function removeReadmeSection(content, heading) {
 export function extractAllMatchdaySummaries(seasonPath) {
   const { sections } = loadSeasonFile(seasonPath);
   return sections.map((s) => {
-    const acc = s.text.match(/#### Accuracy: (\d+) \/ \d+ correct predictions/);
+    const acc = s.text.match(/#### Accuracy: (\d+) \/ (\d+) correct predictions/);
     const bet = s.text.match(/#### Betting Result: ([+-]?[\d.]+)% return/);
     if (!acc || !bet) {
       throw new Error(`Matchday ${s.number} is missing results; cannot build season summary.`);
     }
-    return { number: s.number, accuracyPct: parseInt(acc[1], 10) * 10, returnPct: parseFloat(bet[1]) };
+    const [, correct, total] = acc;
+    return {
+      number: s.number,
+      accuracyPct: Math.round((parseInt(correct, 10) / parseInt(total, 10)) * 100),
+      returnPct: parseFloat(bet[1]),
+    };
   });
 }

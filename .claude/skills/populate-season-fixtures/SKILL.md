@@ -90,3 +90,17 @@ until next season.
 This skill does **not** touch README.md. The "Upcoming prediction" section
 only gets added once predictions exist for a matchday — that happens in
 `insert-predictions`.
+
+## Automating the fixture list (not yet built)
+
+Step 1 above is still manual paste (or a best-effort fetch attempt).
+Investigated automating it — **football-data.org** looks like the best
+free option: a well-established free tier (10 req/min, no card required)
+that explicitly includes Serie A among its 12 covered competitions, with
+fixtures/results endpoints. It doesn't carry odds data, so it wouldn't
+help `insert-results`, but for this skill's narrower need (team names +
+matchday grouping only) it looks sufficient. As with the odds research in
+`insert-results/SKILL.md`, this hasn't been verified against a live
+response — this repo's usual execution environment blocks essentially all
+outbound HTTP, so confirm the response shape from an environment with
+working network access before wiring in a fetch step here.
