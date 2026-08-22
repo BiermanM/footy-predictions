@@ -1,5 +1,22 @@
 # Footy Predictions
 
+### Upcoming prediction
+
+**Matchday 1** (8/22/26 - 8/24/26)
+
+| Home Team | Away Team  | Predicted Result |
+| --------- | ---------- | ---------------- |
+| Inter     | Monza      | 1                |
+| Udinese   | Como       | 2                |
+| Genoa     | Napoli     | 2                |
+| Parma     | Cagliari   | X                |
+| Frosinone | Juventus   | 2                |
+| Venezia   | Lecce      | 1                |
+| Atalanta  | Sassuolo   | 1                |
+| Torino    | AC Milan   | X                |
+| Bologna   | Lazio      | 1                |
+| AS Roma   | Fiorentina | X                |
+
 ### Previous Season (2025-2026) Results
 
 | Matchday  | Accuracy   | Betting Return |

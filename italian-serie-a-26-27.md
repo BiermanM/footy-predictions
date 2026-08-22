@@ -13,16 +13,16 @@ Notes:
 
 | Home Team | Away Team  | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
 | --------- | ---------- | ---------------- | ------------ | --------------- | ------------------- |
-| Inter     | Monza      |                  |              |                 |                     |
-| Udinese   | Como       |                  |              |                 |                     |
-| Genoa     | Napoli     |                  |              |                 |                     |
-| Parma     | Cagliari   |                  |              |                 |                     |
-| Frosinone | Juventus   |                  |              |                 |                     |
-| Venezia   | Lecce      |                  |              |                 |                     |
-| Atalanta  | Sassuolo   |                  |              |                 |                     |
-| Torino    | AC Milan   |                  |              |                 |                     |
-| Bologna   | Lazio      |                  |              |                 |                     |
-| AS Roma   | Fiorentina |                  |              |                 |                     |
+| Inter     | Monza      | 1                |              |                 |                     |
+| Udinese   | Como       | 2                |              |                 |                     |
+| Genoa     | Napoli     | 2                |              |                 |                     |
+| Parma     | Cagliari   | X                |              |                 |                     |
+| Frosinone | Juventus   | 2                |              |                 |                     |
+| Venezia   | Lecce      | 1                |              |                 |                     |
+| Atalanta  | Sassuolo   | 1                |              |                 |                     |
+| Torino    | AC Milan   | X                |              |                 |                     |
+| Bologna   | Lazio      | 1                |              |                 |                     |
+| AS Roma   | Fiorentina | X                |              |                 |                     |
 
 ## Matchday 2
 
