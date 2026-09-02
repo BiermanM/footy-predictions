@@ -9,20 +9,20 @@ Notes:
 
 #### Accuracy: 4 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -38% return
 
-| Home Team | Away Team  | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | ------------ | --------------- | ------------------- |
-| Inter     | Monza      | 1                | 1            |                 | ✅                  |
-| Udinese   | Como       | 2                | X            |                 | ❌                  |
-| Genoa     | Napoli     | 2                | 2            |                 | ✅                  |
-| Parma     | Cagliari   | X                | 2            |                 | ❌                  |
-| Frosinone | Juventus   | 2                | 2            |                 | ✅                  |
-| Venezia   | Lecce      | 1                | 2            |                 | ❌                  |
-| Atalanta  | Sassuolo   | 1                | 1            |                 | ✅                  |
-| Torino    | AC Milan   | X                | 2            |                 | ❌                  |
-| Bologna   | Lazio      | 1                | 2            |                 | ❌                  |
-| AS Roma   | Fiorentina | X                | 1            |                 | ❌                  |
+| Home Team | Away Team  | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | --------------------- | --------------- | ------------------- |
+| Inter     | Monza      | 1                | **-714**, +688, +1600 | 1               | ✅                  |
+| Udinese   | Como       | 2                | +411, +257, -141      | X               | ❌                  |
+| Genoa     | Napoli     | 2                | +298, +200, **+110**  | 2               | ✅                  |
+| Parma     | Cagliari   | X                | +190, +181, +173      | 2               | ❌                  |
+| Frosinone | Juventus   | 2                | +556, +370, **-233**  | 2               | ✅                  |
+| Venezia   | Lecce      | 1                | -125, +250, +353      | 2               | ❌                  |
+| Atalanta  | Sassuolo   | 1                | **-189**, +325, +488  | 1               | ✅                  |
+| Torino    | AC Milan   | X                | +343, +234, -116      | 2               | ❌                  |
+| Bologna   | Lazio      | 1                | +149, +194, +213      | 2               | ❌                  |
+| AS Roma   | Fiorentina | X                | -141, +270, +386      | 1               | ❌                  |
 
 ## Matchday 2
 
