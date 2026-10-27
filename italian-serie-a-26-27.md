@@ -140,22 +140,22 @@ Notes:
 
 ## Matchday 8
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 6 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -2.6% return
 
-| Home Team | Away Team  | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | ------------ | --------------- | ------------------- |
-| Atalanta  | Frosinone  | 1                |              |                 |                     |
-| Cagliari  | Bologna    | 1                |              |                 |                     |
-| Como      | Sassuolo   | 1                |              |                 |                     |
-| Genoa     | Venezia    | X                |              |                 |                     |
-| Inter     | Fiorentina | 1                |              |                 |                     |
-| Lazio     | Parma      | 1                |              |                 |                     |
-| Lecce     | Juventus   | 2                |              |                 |                     |
-| Napoli    | AS Roma    | 2                |              |                 |                     |
-| Torino    | Monza      | 1                |              |                 |                     |
-| Udinese   | AC Milan   | 2                |              |                 |                     |
+| Home Team | Away Team  | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Atalanta  | Frosinone  | 1                | -108, +333, +250     | X               | ❌                  |
+| Cagliari  | Bologna    | 1                | +200, +200, +165     | 2               | ❌                  |
+| Como      | Sassuolo   | 1                | **-213**, +400, +550 | 1               | ✅                  |
+| Genoa     | Venezia    | X                | +110, +250, +260     | 1               | ❌                  |
+| Inter     | Fiorentina | 1                | **-250**, +450, +600 | 1               | ✅                  |
+| Lazio     | Parma      | 1                | **-227**, +375, +700 | 1               | ✅                  |
+| Lecce     | Juventus   | 2                | +600, +330, **-196** | 2               | ✅                  |
+| Napoli    | AS Roma    | 2                | +165, +240, +175     | X               | ❌                  |
+| Torino    | Monza      | 1                | **+110**, +240, +270 | 1               | ✅                  |
+| Udinese   | AC Milan   | 2                | +380, +270, **-122** | 2               | ✅                  |
 
 ## Matchday 9
 
@@ -165,16 +165,16 @@ Notes:
 
 | Home Team  | Away Team | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
 | ---------- | --------- | ---------------- | ------------ | --------------- | ------------------- |
-| Fiorentina | Atalanta  |                  |              |                 |                     |
-| Frosinone  | Lecce     |                  |              |                 |                     |
-| Genoa      | Juventus  |                  |              |                 |                     |
-| AC Milan   | Bologna   |                  |              |                 |                     |
-| Monza      | Napoli    |                  |              |                 |                     |
-| Parma      | Udinese   |                  |              |                 |                     |
-| AS Roma    | Cagliari  |                  |              |                 |                     |
-| Sassuolo   | Lazio     |                  |              |                 |                     |
-| Torino     | Como      |                  |              |                 |                     |
-| Venezia    | Inter     |                  |              |                 |                     |
+| Fiorentina | Atalanta  | X                |              |                 |                     |
+| Frosinone  | Lecce     | 1                |              |                 |                     |
+| Genoa      | Juventus  | 2                |              |                 |                     |
+| AC Milan   | Bologna   | 1                |              |                 |                     |
+| Monza      | Napoli    | 2                |              |                 |                     |
+| Parma      | Udinese   | 1                |              |                 |                     |
+| AS Roma    | Cagliari  | 1                |              |                 |                     |
+| Sassuolo   | Lazio     | 2                |              |                 |                     |
+| Torino     | Como      | 2                |              |                 |                     |
+| Venezia    | Inter     | 2                |              |                 |                     |
 
 ## Matchday 10
 

@@ -2,35 +2,35 @@
 
 ### Upcoming prediction
 
-**Matchday 8** (10/23/26 - 10/25/26)
+**Matchday 9** (10/27/26 - 10/29/26)
 
-| Home Team | Away Team  | Predicted Result |
-| --------- | ---------- | ---------------- |
-| Atalanta  | Frosinone  | 1                |
-| Cagliari  | Bologna    | 1                |
-| Como      | Sassuolo   | 1                |
-| Genoa     | Venezia    | X                |
-| Inter     | Fiorentina | 1                |
-| Lazio     | Parma      | 1                |
-| Lecce     | Juventus   | 2                |
-| Napoli    | AS Roma    | 2                |
-| Torino    | Monza      | 1                |
-| Udinese   | AC Milan   | 2                |
+| Home Team  | Away Team | Predicted Result |
+| ---------- | --------- | ---------------- |
+| Fiorentina | Atalanta  | X                |
+| Frosinone  | Lecce     | 1                |
+| Genoa      | Juventus  | 2                |
+| AC Milan   | Bologna   | 1                |
+| Monza      | Napoli    | 2                |
+| Parma      | Udinese   | 1                |
+| AS Roma    | Cagliari  | 1                |
+| Sassuolo   | Lazio     | 2                |
+| Torino     | Como      | 2                |
+| Venezia    | Inter     | 2                |
 
 ### Previous Matchday Results
 
-| Home Team  | Away Team | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
-| ---------- | --------- | ---------------- | -------------------- | --------------- | ------------------- |
-| Bologna    | Inter     | 2                | +500, +320, **-172** | 2               | ✅                  |
-| Fiorentina | Como      | 2                | +210, +260, **+129** | 2               | ✅                  |
-| Frosinone  | Sassuolo  | X                | +145, +275, +170     | 1               | ❌                  |
-| Juventus   | Lazio     | X                | -159, +300, +450     | 2               | ❌                  |
-| AC Milan   | Atalanta  | 1                | **-159**, +320, +420 | 1               | ✅                  |
-| Monza      | Cagliari  | 2                | +154, +225, +190     | 1               | ❌                  |
-| Parma      | Torino    | 2                | +250, +210, **+129** | 2               | ✅                  |
-| AS Roma    | Genoa     | 1                | **-161**, +300, +500 | 1               | ✅                  |
-| Udinese    | Lecce     | 1                | -120, +250, +390     | 2               | ❌                  |
-| Venezia    | Napoli    | 2                | +359, +275, -120     | 1               | ❌                  |
+| Home Team | Away Team  | Predicted Result | Betting Odds         | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | -------------------- | --------------- | ------------------- |
+| Atalanta  | Frosinone  | 1                | -108, +333, +250     | X               | ❌                  |
+| Cagliari  | Bologna    | 1                | +200, +200, +165     | 2               | ❌                  |
+| Como      | Sassuolo   | 1                | **-213**, +400, +550 | 1               | ✅                  |
+| Genoa     | Venezia    | X                | +110, +250, +260     | 1               | ❌                  |
+| Inter     | Fiorentina | 1                | **-250**, +450, +600 | 1               | ✅                  |
+| Lazio     | Parma      | 1                | **-227**, +375, +700 | 1               | ✅                  |
+| Lecce     | Juventus   | 2                | +600, +330, **-196** | 2               | ✅                  |
+| Napoli    | AS Roma    | 2                | +165, +240, +175     | X               | ❌                  |
+| Torino    | Monza      | 1                | **+110**, +240, +270 | 1               | ✅                  |
+| Udinese   | AC Milan   | 2                | +380, +270, **-122** | 2               | ✅                  |
 
 ### Previous Season (2025-2026) Results
 
