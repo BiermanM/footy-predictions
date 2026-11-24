@@ -216,22 +216,22 @@ Notes:
 
 ## Matchday 12
 
-#### Accuracy: ? / 10 correct predictions
+#### Accuracy: 5 / 10 correct predictions
 
-#### Betting Result: ?% return
+#### Betting Result: -28.1% return
 
-| Home Team | Away Team  | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
-| --------- | ---------- | ---------------- | ------------ | --------------- | ------------------- |
-| Atalanta  | Inter      | 2                |              |                 |                     |
-| Bologna   | Udinese    | 1                |              |                 |                     |
-| Como      | Cagliari   | 1                |              |                 |                     |
-| Juventus  | Venezia    | 1                |              |                 |                     |
-| Lazio     | Lecce      | 1                |              |                 |                     |
-| AC Milan  | Frosinone  | 1                |              |                 |                     |
-| Monza     | Fiorentina | 2                |              |                 |                     |
-| Napoli    | Torino     | X                |              |                 |                     |
-| Parma     | AS Roma    | 2                |              |                 |                     |
-| Sassuolo  | Genoa      | X                |              |                 |                     |
+| Home Team | Away Team  | Predicted Result | Betting Odds          | Official Result | Correct Prediction? |
+| --------- | ---------- | ---------------- | --------------------- | --------------- | ------------------- |
+| Atalanta  | Inter      | 2                | +400, +359, -161      | X               | ❌                  |
+| Bologna   | Udinese    | 1                | -125, +260, +380      | X               | ❌                  |
+| Como      | Cagliari   | 1                | **-357**, +525, +900  | 1               | ✅                  |
+| Juventus  | Venezia    | 1                | **-227**, +380, +700  | 1               | ✅                  |
+| Lazio     | Lecce      | 1                | **-189**, +350, +600  | 1               | ✅                  |
+| AC Milan  | Frosinone  | 1                | **-143**, +350, +380  | 1               | ✅                  |
+| Monza     | Fiorentina | 2                | +290, +280, -102      | 1               | ❌                  |
+| Napoli    | Torino     | X                | -167, +320, +480      | 1               | ❌                  |
+| Parma     | AS Roma    | 2                | +1200, +600, **-417** | 2               | ✅                  |
+| Sassuolo  | Genoa      | X                | +175, +220, +179      | 2               | ❌                  |
 
 ## Matchday 13
 
@@ -241,16 +241,16 @@ Notes:
 
 | Home Team | Away Team  | Predicted Result | Betting Odds | Official Result | Correct Prediction? |
 | --------- | ---------- | ---------------- | ------------ | --------------- | ------------------- |
-| Cagliari  | AC Milan   |                  |              |                 |                     |
-| Como      | Juventus   |                  |              |                 |                     |
-| Frosinone | Parma      |                  |              |                 |                     |
-| Inter     | Genoa      |                  |              |                 |                     |
-| Lecce     | Atalanta   |                  |              |                 |                     |
-| AS Roma   | Monza      |                  |              |                 |                     |
-| Sassuolo  | Napoli     |                  |              |                 |                     |
-| Torino    | Lazio      |                  |              |                 |                     |
-| Udinese   | Fiorentina |                  |              |                 |                     |
-| Venezia   | Bologna    |                  |              |                 |                     |
+| Cagliari  | AC Milan   | 2                |              |                 |                     |
+| Como      | Juventus   | 1                |              |                 |                     |
+| Frosinone | Parma      | 1                |              |                 |                     |
+| Inter     | Genoa      | 1                |              |                 |                     |
+| Lecce     | Atalanta   | 2                |              |                 |                     |
+| AS Roma   | Monza      | 1                |              |                 |                     |
+| Sassuolo  | Napoli     | 2                |              |                 |                     |
+| Torino    | Lazio      | 2                |              |                 |                     |
+| Udinese   | Fiorentina | 1                |              |                 |                     |
+| Venezia   | Bologna    | X                |              |                 |                     |
 
 ## Matchday 14
 
